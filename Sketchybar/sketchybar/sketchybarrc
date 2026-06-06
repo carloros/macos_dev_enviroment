@@ -2,7 +2,8 @@
 # Not too different from the base starting config!
 
 PLUGIN_DIR="$CONFIG_DIR/plugins"
-ITEM_DIR="$CONFIG_DIR/items" 
+ITEM_DIR="$CONFIG_DIR/items"
+FONT="SF Pro"
 ##### Bar Appearance #####
 # Configuring the general appearance of the bar.
 # These are only some of the options available. For all options see:
@@ -20,7 +21,7 @@ sketchybar --bar position=top height=40 blur_radius=30 color=0x40000000
 default=(
   padding_left=5
   padding_right=5
-  icon.font="Hack Nerd Font:Bold:17.0"
+  icon.font="$FONT:Bold:17.0"
   label.font="SF Pro:Semibold:17.0"
   icon.color=0xffffffff
   label.color=0xffffffff

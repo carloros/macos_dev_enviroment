@@ -108,3 +108,11 @@
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 - PAID - [Dank Mono](https://philpl.gumroad.com/l/dank-mono)
+
+## AI
+- [Claude Code](https://code.claude.com/docs/en/quickstart)
+  - [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills#install)
+  - [caveman](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md#per-agent-install)
+- [Open Code](https://opencode.ai/docs#install)
+  - Add it as a SKILL [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills#install)
+  - [caveman](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md#per-agent-install)

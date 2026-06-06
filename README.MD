@@ -67,6 +67,9 @@
 - Custom top bar -> [SketchyBar](https://github.com/FelixKratz/SketchyBar)
 
 ## Inside CLI tools
+- Better shell -> [zsh](https://www.zsh.org/)
+- Improve zsh -> [oh-my-zsh](https://ohmyz.sh/#install)
+- Prettier shell -> [starship](https://starship.rs/)
 - Fuzzy finder -> [fzf](https://github.com/junegunn/fzf)
 - Better find -> [fd](https://github.com/sharkdp/fd)
 - Better cat -> [bat](https://github.com/sharkdp/bat)
@@ -99,3 +102,8 @@
 - Check internet speed -> [Test Internet Speed](https://github.com/raycast/extensions/blob/61abfa42019d206c91c769313f70eff3378ef4d0/extensions/speedtest/README.md)
 - Manage Zed -> [Zed](https://github.com/raycast/extensions/blob/96e7192ec9100ae1b7b0d40984323832fa2eb5cc/extensions/zed-recent-projects/README.md)
 - Search Vim Commands -> [Search Commands](https://github.com/raycast/extensions/blob/186d955eda64f9e956b25a3fdf5566b1d38f57f2/extensions/vim-bro/README.md)
+
+## Custom fonts with ligatures
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+- PAID - [Dank Mono](https://philpl.gumroad.com/l/dank-mono)

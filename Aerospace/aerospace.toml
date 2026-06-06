@@ -12,7 +12,7 @@ after-login-command = []
 after-startup-command = []
 
 # Start AeroSpace at login
-start-at-login = true 
+start-at-login = true
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
@@ -41,7 +41,7 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 # You can effectively turn off macOS "Hide application" (cmd-h) feature by toggling this flag
 # Useful if you don't use this macOS feature, but accidentally hit cmd-h or cmd-alt-h key
 # Also see: https://nikitabobko.github.io/AeroSpace/goodies#disable-hide-app
-automatically-unhide-macos-hidden-apps = true 
+automatically-unhide-macos-hidden-apps = true
 
 
 #ADDED STUFF
@@ -112,7 +112,7 @@ alt-ctrl-shift-i = 'exec-and-forget open -a /Applications/Insomnia.app'
 alt-s = 'exec-and-forget open -a /Applications/Slack.app'
 alt-shift-s = 'exec-and-forget open -a /Applications/Safari.app'
 alt-m = 'exec-and-forget open -a Mail'
-alt-w = 'exec-and-forget open -a /Applications/WhatsApp.localized/WhatsApp.app'
+alt-w = 'exec-and-forget open -a /Applications/WhatsApp.app'
 alt-t = 'exec-and-forget open -a /Applications/Setapp/TablePlus.app'
 alt-shift-d = 'exec-and-forget open -a /Applications/Setapp/DevUtils.app'
 alt-shift-f = 'exec-and-forget open -a /Applications/Setapp/ForkLift.app'

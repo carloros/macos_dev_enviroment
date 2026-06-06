@@ -83,6 +83,7 @@
 - Better grep -> [ripgrep](https://github.com/BurntSushi/ripgrep)
 - Better cd -> [zoxide](https://github.com/ajeetdsouza/zoxide)
 - Better JSON -> [jq](https://github.com/stedolan/jq)
+- Programming language manager -> [mise](https://github.com/jdx/mise)
 
 ## Raycast extensions
 - Manage Brew -> [Brew](https://github.com/raycast/extensions/blob/628860323aab71df786edd379d2b5716d48e4039/extensions/brew/README.md)

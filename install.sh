@@ -102,15 +102,14 @@ install_ohmyzsh() {
 
 # ── 4. Install fonts ───────────────────────────────────────
 install_fonts() {
-  local FONT_DIR="$HOME/Library/Fonts"
   info "Installing JetBrains Mono Nerd Font..."
-  local FONT_ZIP="/tmp/jetbrains-mono-nerd.zip"
-  if [ ! -f "$FONT_DIR/JetBrainsMonoNerdFont-Regular.ttf" ]; then
-    curl -fsSL "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip" -o "$FONT_ZIP"
-    unzip -o "$FONT_ZIP" -d /tmp/jetbrains-mono-nerd >/dev/null 2>&1
-    cp /tmp/jetbrains-mono-nerd/*.ttf "$FONT_DIR/" 2>/dev/null || true
-    rm -rf "$FONT_ZIP" /tmp/jetbrains-mono-nerd
-    ok "JetBrains Mono Nerd Font installed"
+  if [ ! -f "$HOME/Library/Fonts/JetBrainsMonoNerdFont-Regular.ttf" ]; then
+    brew install --cask font-jetbrains-mono-nerd-font 2>/dev/null || true
+    if [ -f "$HOME/Library/Fonts/JetBrainsMonoNerdFont-Regular.ttf" ]; then
+      ok "JetBrains Mono Nerd Font installed"
+    else
+      warn "Font install failed — install manually: brew install --cask font-jetbrains-mono-nerd-font"
+    fi
   else
     ok "JetBrains Mono Nerd Font already present"
   fi

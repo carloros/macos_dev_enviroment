@@ -3,7 +3,7 @@
 
 PLUGIN_DIR="$CONFIG_DIR/plugins"
 ITEM_DIR="$CONFIG_DIR/items"
-FONT="SF Pro"
+FONT="JetBrainsMono NF"
 ##### Bar Appearance #####
 # Configuring the general appearance of the bar.
 # These are only some of the options available. For all options see:
@@ -22,7 +22,7 @@ default=(
   padding_left=5
   padding_right=5
   icon.font="$FONT:Bold:17.0"
-  label.font="SF Pro:Semibold:17.0"
+  label.font="$FONT:Regular:17.0"
   icon.color=0xffffffff
   label.color=0xffffffff
   icon.padding_left=4
@@ -113,11 +113,8 @@ sketchybar --add item clock right \
   --add item battery right \
   --set battery update_freq=120 script="$PLUGIN_DIR/battery.sh" \
   --subscribe battery system_woke power_source_change \
-  --add item swap e \
-  icon="" \
-  label.font="Hack Nerd Font:Italic:13.0" \
-  icon.color=0x44FFFFFF \
-  label.color=0x44FFFFFF
+  --add item memory right \
+  --set memory update_freq=30 script="$PLUGIN_DIR/memory.sh" \
 
 ##### Force all scripts to run the first time (never do this in a script) #####
 sketchybar --update

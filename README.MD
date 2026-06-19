@@ -84,6 +84,8 @@
 - Better cd -> [zoxide](https://github.com/ajeetdsouza/zoxide)
 - Better JSON -> [jq](https://github.com/stedolan/jq)
 - Programming language manager -> [mise](https://github.com/jdx/mise)
+- Mise PHP plugin -> [mise-php](https://github.com/verzly/mise-php)
+- Better docker -> [lazydocker](https://github.com/jesseduffield/lazydocker)
 
 ## Raycast extensions
 - Manage Brew -> [Brew](https://github.com/raycast/extensions/blob/628860323aab71df786edd379d2b5716d48e4039/extensions/brew/README.md)
@@ -114,6 +116,8 @@
 - [Claude Code](https://code.claude.com/docs/en/quickstart)
   - [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills#install)
   - [caveman](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md#per-agent-install)
+  - [superpowers](https://github.com/obra/superpowers)
 - [Open Code](https://opencode.ai/docs#install)
   - Add it as a SKILL [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills#install)
   - [caveman](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md#per-agent-install)
+  - [superpowers](https://github.com/obra/superpowers)

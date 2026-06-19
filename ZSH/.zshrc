@@ -1,6 +1,26 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="robbyrussell"
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+# Starship prompt
+eval "$(starship init zsh)"
+
 # ZSH
 alias reload-zsh="source ~/.zshrc"
-alias edit-zsh="nvim ~/.zshrc"
+alias edit-zsh="zed ~/.zshrc"
 
 # Thefuck alias
 eval $(thefuck --alias)
@@ -15,8 +35,8 @@ alias cd="z"
 alias cl='clear'
 
 # FZF
-source <(fzf --zsh)
-alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
+# source <(fzf --zsh)
+# alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
 
 # Cat
 alias cat=bat
@@ -63,4 +83,10 @@ alias ......="cd ../../../../.."
 alias v="/opt/homebrew/bin/nvim"
 
 # Nmap
-alias nm="nmap -sC -sV -oN nmap"
+alias nm="nmap -sC -sV -oN nmap"eval "$(/Users/carlos/.local/bin/mise activate zsh)"
+
+#Mise
+eval "$(/Users/carlos/.local/bin/mise activate zsh)"
+
+# opencode
+export PATH=/Users/carlos/.opencode/bin:$PATH

@@ -1,38 +1,30 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run the `open default settings` command
-// from the command palette or from `Zed` application menu.
 {
   "auto_install_extensions": {
-      "astro": true,
-      "catppuccin": true,
-      "catppuccin-icons": true,
-      "csv": true,
-      "docker-compose": true,
-      "dockerfile": true,
-      "env": true,
-      "git-firefly": true,
-      "graphql": true,
-      "html": true,
-      "java": true,
-      "json5": true,
-      "live-server": true,
-      "log": true,
-      "lua": true,
-      "macos-classic": true,
-      "nginx": true,
-      "php": true,
-      "rainbow-csv": true,
-      "scss": true,
-      "sql": true,
-      "toml": true,
-      "vue": true,
-      "vue-snippets": true,
-      "xml": true
+    "astro": true,
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "csv": true,
+    "docker-compose": true,
+    "dockerfile": true,
+    "env": true,
+    "git-firefly": true,
+    "graphql": true,
+    "html": true,
+    "java": true,
+    "json5": true,
+    "live-server": true,
+    "log": true,
+    "lua": true,
+    "macos-classic": true,
+    "nginx": true,
+    "php": true,
+    "rainbow-csv": true,
+    "scss": true,
+    "sql": true,
+    "toml": true,
+    "vue": true,
+    "vue-snippets": true,
+    "xml": true
   },
   "agent_servers": {
     "claude-acp": {
@@ -70,21 +62,21 @@
   "ui_font_family": ".SystemUIFont",
   "buffer_font_family": "Dank Mono",
   "project_panel": {
-    "dock": "left",
+    "dock": "left"
   },
   "icon_theme": "Catppuccin Latte",
   "git_panel": {
     "dock": "right",
-    "tree_view": false,
+    "tree_view": false
   },
   "session": {
-    "trust_all_worktrees": true,
+    "trust_all_worktrees": true
   },
   "theme": "macOS Classic Dark",
   "telemetry": {
-    "metrics": false,
+    "metrics": false
   },
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "max_tabs": 5,
+  "max_tabs": 5
 }

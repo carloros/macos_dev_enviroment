@@ -108,6 +108,7 @@
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 - PAID - [Dank Mono](https://philpl.gumroad.com/l/dank-mono)
+- [font-sketchybar-app-font](https://github.com/kvndrsslr/sketchybar-app-font)
 
 ## AI
 - [Claude Code](https://code.claude.com/docs/en/quickstart)
